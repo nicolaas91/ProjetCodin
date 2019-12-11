@@ -1,0 +1,66 @@
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+padding: 0;
+border: 0;
+width: 100%;
+height: 100%;
+background: url(thomas-moran-la-mer-en-colere-1911.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html {
+margin: 0;
+padding: 0;
+border: 0;
+width: 100%;
+height: 100%;
+}
+
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+img.toto{
+  cursor: pointer;
+  width: 25%;
+  height: 25%;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+img.toto:hover {
+  cursor: pointer;
+  width: 25%;
+  height: 25%;
+filter: brightness(150%);
+-webkit-filter: brightness(150%);
+}
+
+audio {
+      display: none;
+}
+.audio1{
+  position: fixed;
+  right: 2%;
+  top: 2%;
+  max-width: 5%;
+  height: auto;
+  opacity: 0.8;
+}
+@font-face {
+	font-family: "Ma Super Fonte";
+	src: url('Windlass.ttf');
+}
+.custom{
+  font-family: "Ma Super Fonte";
+  font-style: bold;
+  color : #EAE8DB;
+  font-size: 50px;
+  opacity: 0.8;
+}
